@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>INVOICE</title>
+	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <div><button id="printPageButton" onclick="window.print();">Print</button></div>
+      <div id="logo">
+        <img src="images/halfLogo.png">
+      </div>
+      <div id="company">
+        <h2 class="name">Lakshman Furniture</h2>
+        <div>Pithapur Road</div>
+        <div>Cuttack, Odisha - 753001</div>
+        <div class="call">+91-8249174903, +91-9090287311</a></div>
+      </div>
+      </div>
+    </header>
+    <main>
+      <div id="details" class="clearfix">
+        <div id="client">
+          <div class="to">Invoice To:</div>
+          <h2 class="name">Himanshu Pradhan</h2>
+          <div class="address">Haripur, Buxibazar, Cuttack</div>
+          <div class="call">+91-8882101056</div>
+        </div>
+        <div id="invoice">
+          <h1>INVOICE 3-2-1</h1>
+          <div class="date">Date of Invoice: 01/06/2014</div>
+          <div class="date">Date of Delivery: 30/06/2014</div>          
+        </div>
+      </div>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th class="descHead">Description</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="desc"><h3>Website Design</h3>xyzzz</td>
+            <td class="unit">₹40.00</td>
+            <td class="qty">30</td>
+            <td class="total">₹1,200.00</td>
+          </tr>
+          <tr>
+            <td class="desc"><h3>Website Development</h3></td>
+            <td class="unit">₹40.00</td>
+            <td class="qty">80</td>
+            <td class="total">₹3,200.00</td>
+          </tr>
+          <tr>
+            <td class="desc"><h3>Search Engines Optimization</h3>xyzz</td>
+            <td class="unit">₹40.00</td>
+            <td class="qty">20</td>
+            <td class="total">₹800.00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Subtotal</td>
+            <td>₹5,200.00</td>
+          </tr>
+          <tr>
+            <td colspan="1"></td>
+            <td colspan="2">TAX 25%</td>
+            <td>₹1,300.00</td>
+          </tr>
+          <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Advance</td>
+            <td>₹1,300.00</td>
+          </tr>
+          <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Grand Total</td>
+            <td>₹6,500.00</td>
+          </tr>
+        </tfoot>
+      </table>
+      <div id="thanks">Thank you!</div>      
+    </main>
+    <footer>
+      Invoice was created on a computer and is valid without the signature and seal.
+    </footer>
+	
+  </body>
+</html>
